@@ -1,0 +1,51 @@
+<div style="padding: 10px 0;">
+    {{translateByHash "The user %{sendedUserName} has sned an email for %{appName} on the %{webPageName}." sendedUserName=sendedUserName appName=appName webPageName=webPageName}}
+</div>
+{{#with contactInformations}}
+<table>
+    <tr>
+        <th style="min-width: 50px;"></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td style="border-bottom: 1px solid #00bae4; font-weight: bold; margin-left:5px;">
+            {{translate "From"}}:
+        </td>
+        <td>
+            {{name}}
+        </td>
+    </tr>
+    <tr>
+        <td style="border-bottom: 1px solid #00bae4; font-weight: bold;">
+            {{translate "Email Address"}}:
+        </td>
+        <td>
+            &#128231; <a href="mailto: {{email}}"> {{email}}</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="border-bottom: 1px solid #00bae4; font-weight: bold; padding-right:10px; white-space: nowrap;">
+            {{translate "Phone Number"}}:
+        </td>
+        <td>
+            &#9742; <a href="tel:{{phoneNumber}}">{{phoneNumber}}</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="border-bottom: 1px solid #00bae4; font-weight: bold;">
+            {{translate "Subject"}}:
+        </td>
+        <td>
+            {{contactFormSubject}}
+        </td>
+    </tr>
+    <tr>
+        <td style="border-bottom: 1px solid #00bae4; font-weight: bold;">
+           {{translate "Message"}}:
+        </td>
+        <td>
+            {{message}}
+        </td>
+    </tr>
+</table>
+{{/with}}

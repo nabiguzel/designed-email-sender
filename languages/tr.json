@@ -1,3 +1,22 @@
 {
-    "greeting":"Merhaba"
+    "greeting": "Merhaba",
+    "New version of '%{appName}' has been published as '%{verisonName}' on the '%{webPageName}'.": "'{{appName}}' uygulamasının yeni sürümü '{{webPageName}}' üzerinde '{{verisonName}}' olarak yayınlandı.",
+    "Manage Your Account": "Hesabınızı Yönetin",
+    "Customer Support": "Müşteri Hizmetleri",
+    "Dear %s": "Değerli %s",
+    "Please click the activation link to reset the password of your account belonging to the %{appName} application.": "{{appName}} uygulamasına ait hesabınızın şifresini sıfırlamak için lütfen etkinleştirme bağlantısını tıklayın",
+    "Activation link": "Aktivasyon linki",
+    "Your %{appName} password has been recently changed.": "{{appName}} şifreniz yakın zamanda değiştirildi.",
+    "If you did not request this password change, please contact the customer support team.": "Bu şifre değişikliğini siz talep etmediyseniz, lütfen müşteri destek ekibiyle iletişime geçin.",
+    "Publisher Name": "Yayıncı Adı",
+    "Publisher Email": "Yayıncı e-postası",
+    "Publisher Phone Number": "Yayıncı Telefon Numarası",
+    "Publishment Note": "Yayın Notu",
+    "Sending %s failed.": "%s gönderimi başarısız oldu.",
+    "%s successfully sent.": "%s başarı ile gönderildi.",
+    "Version Announcment": "Versiyon Duyurusu",
+    "Forgot Password": "Şifremi Unuttum",
+    "Password Changed Warning": "Şifre Değişim Uyarısı",
+    "Missing required fields error": "Eksik gerekli parametre hatası",
+    "New Version": "Yeni Versiyon"
 }

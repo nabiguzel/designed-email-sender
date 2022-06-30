@@ -1,0 +1,43 @@
+<div style="padding: 10px 0;">
+    {{translateByHash "New version of '%{appName}' has been published as '%{verisonName}' on the '%{webPageName}'." appName=appName verisonName=verisonName webPageName=webPageName}}
+</div>
+{{#with publishmentInformations}}
+<table>
+    <tr>
+        <th style="min-width: 50px;"></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td style="border-bottom: 1px dashed #999; font-weight: bold; margin-left:5px;">
+            {{translate "Publisher Name"}}:
+        </td>
+        <td>
+            {{publisherName}}
+        </td>
+    </tr>
+    <tr>
+        <td style="border-bottom: 1px dashed #999; font-weight: bold;">
+            {{translate "Publisher Email"}}:
+        </td>
+        <td>
+            &#128231; <a href="mailto: {{email}}"> {{publisherEmail}}</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="border-bottom: 1px dashed #999; font-weight: bold; padding-right:10px; white-space: nowrap;">
+            {{translate "Publisher Phone Number"}}:
+        </td>
+        <td>
+            &#9742; <a href="tel:{{phoneNumber}}">{{publisherPhoneNumber}}</a>
+        </td>
+    </tr>
+    <tr>
+        <td style="font-weight: bold;">
+           {{translate "Publishment Note"}}:
+        </td>
+        <td>
+            {{publishmentNote}}
+        </td>
+    </tr>
+</table>
+{{/with}}

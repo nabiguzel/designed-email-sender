@@ -1,3 +1,21 @@
 {
-    "greeting":"Hello"
+    "greeting": "Hello",
+    "New version of '%{appName}' has been published as '%{verisonName}' on the '%{webPageName}'.": "New version of '{{appName}}' has been published as '{{verisonName}}' on the '{{webPageName}}'.",
+    "Manage Your Account": "Manage Your Account",
+    "Customer Support": "Customer Support",
+    "Dear %s": "Dear %s",
+    "Please click the activation link to reset the password of your account belonging to the %{appName} application.": "Please click the activation link to reset the password of your account belonging to the {{appName}} application.",
+    "Activation link": "Activation link",
+    "Your %{appName} password has been recently changed.": "Your {{appName}} password has been recently changed.",
+    "If you did not request this password change, please contact the customer support team.": "If you did not request this password change, please contact the customer support team.",
+    "Publisher Name": "Publisher Name",
+    "Publisher Email": "Publisher Email",
+    "Publisher Phone Number": "Publisher Phone Number",
+    "Publishment Note": "Publishment Note",
+    "Sending %s failed.": "Sending %s failed.",
+    "%s successfully sent.": "%s successfully sent.",
+    "Version Announcment": "Version Announcment",
+    "Forgot Password": "Forgot Password",
+    "Password Changed Warning": "Password Changed Warning",
+    "Missing required fields error": "Missing required fields error"
 }

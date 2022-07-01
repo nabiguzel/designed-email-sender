@@ -17,7 +17,7 @@ app.use("/hi", (req, res) => res.send(req.__("greeting")))
 console.log("process.env.LEVEL: ",process.env.LEVEL);
 
 if (process.env.LEVEL === "DEBUG") {
-    const designControl = require('./designControlsRoutes');
+    const designControl = require('./designChechkRoutes');
     designControl(app);
 }
 
